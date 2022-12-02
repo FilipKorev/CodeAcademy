@@ -18,6 +18,6 @@ let f3 = {
     IDValue: "16532"
 };
 
-people.friends = [f1, f2, f3];
+people.friends.push(f1, f2, f3);
 
 console.log(people);
