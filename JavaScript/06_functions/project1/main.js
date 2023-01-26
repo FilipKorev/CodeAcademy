@@ -2,7 +2,7 @@
     if (num === 10) {
         console.log(num);
         return 10;
-}else{
+    }else{
     console.log(num);
     countToTen(++num);
 }}
