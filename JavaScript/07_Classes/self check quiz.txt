@@ -1,0 +1,19 @@
+1. class xD
+
+2. class person{
+    constructor(first,last){
+        this.first = first;
+        this.last = last;
+    }
+}
+
+3.inheritance
+
+4.- true
+-false
+-true
+-true
+-true
+
+
+5.B
