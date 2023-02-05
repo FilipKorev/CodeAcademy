@@ -2,9 +2,6 @@ let seconds = 00;
 let tens = 00;
 let tensElement = document.getElementById("tens");
 let secondsElement = document.getElementById("seconds");
-let buttonStart = document.getElementById("button-start");
-let buttonStop = document.getElementById("button-stop");
-let buttonReset = document.getElementById("button-reset");
 let interval;
 
 function startTimer() {
