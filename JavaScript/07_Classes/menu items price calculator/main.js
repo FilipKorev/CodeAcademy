@@ -10,9 +10,9 @@ class price{
         return ((this.#item1Price * this.item1Bought)+(this.#item2Price * this.item2Bought));
     }
 
-    // get calculate(){
-    //     this.totalCost();
-    // }
+    get calculate(){
+      return  this.totalCost();
+    }
 }
 
 let a = new price(5,6);
