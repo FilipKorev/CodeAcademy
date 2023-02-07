@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice.6</title>
+    <style>
+        
+    </style>
+</head>
+<body> 
+    <!-- ctrl + D -->
+  
+    <h1>on click example</h1>
+    <div id="one" onclick="alert('You clicked me!')">click me!</div>
+
+    <div id="two" onclick="stop()">Click me!</div>
+    <div id="three">dont click me!</div>
+    <script>
+        function stop() {
+            alert("Ouch you clicked me!")
+        }
+
+        document.getElementById("three").onclick = function () {
+            stop();
+        }
+    </script>
+</body>
+</html>

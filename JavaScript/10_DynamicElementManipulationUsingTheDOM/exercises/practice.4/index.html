@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice.4</title>
+    <style>
+        .red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body> 
+    <!-- ctrl + D -->
+    <p class="red" name="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, voluptatem.
+    </p>
+    <p class="red" name="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sint vitae aliquam, aspernatur maiores numquam.</p>
+    <div>
+        <p class="red" name="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, tenetur nam. Corrupti, beatae, error culpa fuga, architecto quod et eaque quia laudantium repellat accusantium quaerat.</p>
+    </div>
+
+
+    <script>
+        let redArr = document.getElementsByClassName("red");
+        for (let i = 0; i < redArr.length; i++) {
+            const element = redArr[i];
+            element.style.color = "blue";
+        }
+    </script>
+</body>
+</html>
