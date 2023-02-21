@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>JavaScript Course</title>
+</head>
+<body>
+    <div class="output"></div>
+    <input type="text" placeholder="Enter Email">
+    <button>Check</button>
+   
+    <script>
+       const output = document.querySelector(".output"); 
+       const emailInp = document.querySelector("input");
+       const button = document.querySelector("button");
+       var mailformat =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+       button.addEventListener("click", function () {
+        let value = emailInp.value;
+        console.log(mailformat.test(value));
+        if (mailformat.test(value)) {
+            output.textContent = "Valid Mail";
+        }else{
+            output.textContent = "Invali Mail";
+        }
+       })
+
+    </script>
+</body>
+</html>
