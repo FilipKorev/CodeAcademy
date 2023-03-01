@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+   justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightgreen;
+    z-index: 5;
+}
+
+nav {
+    padding: 1vh 10vw;
+}
+
+#navList li {
+    list-style-type: none;
+    margin-left: 1vw;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+#navList li:hover {
+    background-color: #ffffffe6;
+    color: black;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ffffffe6;
+    color: black !important;
+    cursor: pointer;
+}
+
+.active:hover {
+    background-color: #acacac !important;
+}
+
+section {
+    min-height: calc(100vh - 150px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+    background-color:rgba(0, 0, 0, 0.7);
+    color: #ffffffe6;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: lightgreen;
+    height: 150px;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer div a img {
+    width: 40px;
+    height: 40px;
+    mix-blend-mode: color-burn;
+}
+
+#home {
+    background-image:url(./images/hero.jpg);
+    background-size:cover;
+}
+
+#home div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#home div h1 {
+    font-size:70px;
+}
+
+/* #aboutus {
+    text-align: center;
+} */
+
+#aboutus h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+#aboutus p {
+    padding: 30px;
+}
+
+#service img{
+    width: 100%;
+    height: calc(100vh - 150px);
+}
+
+#ourteam {
+   /* display: flex;
+   height: auto; */
+}
+
+#ourteamchild {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.card {
+    margin: 15px;
+    color: black;
+}
+
+form {
+    border: 2px solid white;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    color: black;
+    width: 30%;
+}
+
+#contactus h2 {
+    text-align: center;
+    color: lightgreen;
+}
